@@ -111,7 +111,7 @@ Bạn có thể đưa trang web này lên mạng internet miễn phí thông qua
 ---
 
 ## 🤝 Đóng góp (Contributing)
-Nếu bạn thấy dự án này hữu ích, hãy cho mình xin 1 ⭐️ (Star) trên GitHub nhé! Mọi đóng góp (Pull Request) để cải thiện dự án đều được chào đón.
+Nếu bạn thấy dự án này hữu ích, hãy cho mình xin 1 ⭐️ trên GitHub nhé! Mọi đóng góp (Pull Request) để cải thiện dự án đều được chào đón.
 
 ## 📄 Giấy phép (License)
 Dự án này được phân phối dưới giấy phép MIT. Xem file `LICENSE` để biết thêm chi tiết.
