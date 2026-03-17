@@ -1,64 +1,112 @@
-# E-commerce Product Description Generator
+# 🚀 E-com DescGen AI - Trợ lý AI Viết Mô Tả Sản Phẩm Chuẩn SEO
 
-Ứng dụng giúp người bán hàng online tự động tạo mô tả sản phẩm hấp dẫn, đầy đủ và chuẩn SEO sử dụng AI (Google Gemini).
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-## Tính năng
-- Nhập thông tin sản phẩm (Tên, Tính năng, Lợi ích, Từ khóa SEO).
-- Tự động tạo mô tả sản phẩm bằng AI.
-- Hiển thị kết quả trực quan, hỗ trợ sao chép nhanh.
-- Xem dưới dạng văn bản (Markdown) hoặc mã HTML.
-- Giao diện đẹp mắt, responsive, thân thiện với người dùng.
+Ứng dụng web thông minh giúp các nhà bán hàng tự động tạo bài viết mô tả sản phẩm thương mại điện tử chuẩn SEO, hấp dẫn và chuyên nghiệp chỉ trong vài giây nhờ sức mạnh của **Google Gemini AI**.
 
-## Yêu cầu hệ thống
-- Node.js (phiên bản 18 trở lên)
-- npm hoặc yarn
+> **Lưu ý dành cho Giảng viên / Người chấm điểm:** 
+> Đây là đồ án môn học [Điền tên môn học của bạn vào đây]. 
+> Sinh viên thực hiện: [Điền tên bạn] - MSSV: [Điền MSSV].
 
-## Cài đặt và Chạy cục bộ (Local)
+---
 
-1. Clone repository:
-   ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
-   ```
+## ✨ Chức năng chính
+- 📝 **Tự động tạo nội dung:** Nhập tên sản phẩm, tính năng và từ khóa, AI sẽ tự động viết bài mô tả hoàn chỉnh.
+- 🔍 **Tối ưu SEO:** Nội dung được thiết kế thân thiện với công cụ tìm kiếm, giúp tăng tỷ lệ chuyển đổi.
+- 🎨 **Giao diện hiện đại:** Thiết kế tối giản, dễ sử dụng với Tailwind CSS.
+- 📋 **Sao chép & Xem trước HTML:** Hỗ trợ xem trước định dạng và sao chép mã HTML để dán trực tiếp lên Shopee, Lazada, Website...
 
-2. Cài đặt dependencies:
-   ```bash
-   npm install
-   ```
+---
 
-3. Cấu hình biến môi trường:
-   Tạo file `.env` ở thư mục gốc và thêm API Key của Google Gemini:
-   ```env
-   VITE_GEMINI_API_KEY=your_api_key_here
-   ```
-   *(Lưu ý: Trong môi trường AI Studio, biến `GEMINI_API_KEY` đã được tự động cấu hình)*
+## 🛠 Công nghệ sử dụng
+- **Frontend:** React.js, Vite, Tailwind CSS, Lucide React.
+- **AI Integration:** Google Gemini API (`@google/genai`).
+- **Deployment & DevOps:** Docker, Vercel.
 
-4. Chạy ứng dụng:
-   ```bash
-   npm run dev
-   ```
-   Truy cập `http://localhost:3000` trên trình duyệt.
+---
 
-## Triển khai trên Vercel
-1. Đẩy mã nguồn lên GitHub.
-2. Đăng nhập vào [Vercel](https://vercel.com/).
-3. Chọn "Add New..." -> "Project".
-4. Import repository từ GitHub.
-5. Trong phần "Environment Variables", thêm biến `VITE_GEMINI_API_KEY` với giá trị là API Key của bạn.
-6. Nhấn "Deploy".
+## ⚙️ Yêu cầu hệ thống (Prerequisites)
+Trước khi cài đặt, hãy đảm bảo máy tính của bạn đã có:
+1. [Node.js](https://nodejs.org/) (Phiên bản 18 trở lên).
+2. [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Nếu bạn muốn chạy bằng Docker).
+3. **Gemini API Key:** Lấy miễn phí tại [Google AI Studio](https://aistudio.google.com/app/apikey).
 
-## Đóng gói và chạy với Docker
+---
 
-Dự án đã bao gồm sẵn `Dockerfile` để đóng gói ứng dụng bằng Nginx.
+## 🚀 Hướng dẫn cài đặt và chạy trên máy cá nhân (Local Machine)
 
-1. Build Docker Image:
-   ```bash
-   docker build -t ecommerce-desc-generator .
-   ```
+Bất kỳ ai tải mã nguồn này về đều có thể chạy ứng dụng theo 1 trong 2 cách dưới đây:
 
-2. Chạy Docker Container:
-   ```bash
-   docker run -d -p 8080:80 ecommerce-desc-generator
-   ```
+### Cách 1: Chạy bằng Node.js (Khuyên dùng cho Developer)
+Đây là cách nhanh nhất để chạy và chỉnh sửa code.
 
-3. Truy cập ứng dụng tại: `http://localhost:8080`
+**Bước 1:** Clone repository về máy:
+```bash
+git clone https://github.com/TEN_GITHUB_CUA_BAN/TEN_REPO_CUA_BAN.git
+cd TEN_REPO_CUA_BAN
+```
+
+**Bước 2:** Cài đặt các thư viện cần thiết:
+```bash
+npm install
+```
+
+**Bước 3:** Cấu hình API Key:
+- Tạo một file có tên là `.env` ở thư mục gốc của dự án.
+- Mở file `.env` và thêm dòng sau (thay thế bằng Key thật của bạn):
+```env
+VITE_GEMINI_API_KEY=AIzaSyB_Day_La_Key_Cua_Ban
+```
+
+**Bước 4:** Khởi động ứng dụng:
+```bash
+npm run dev
+```
+👉 Mở trình duyệt và truy cập: `http://localhost:3000` (hoặc cổng được hiển thị trên Terminal).
+
+---
+
+### Cách 2: Chạy bằng Docker (Dành cho triển khai nhanh)
+Nếu máy bạn đã cài Docker, bạn có thể chạy ứng dụng mà không cần cài đặt Node.js.
+
+**Bước 1:** Đảm bảo bạn đã tạo file `.env` chứa `VITE_GEMINI_API_KEY` như hướng dẫn ở trên.
+
+**Bước 2:** Build Docker Image:
+```bash
+docker build -t ecommerce-desc-generator .
+```
+
+**Bước 3:** Chạy Docker Container:
+```bash
+docker run -d -p 8080:80 ecommerce-desc-generator
+```
+👉 Mở trình duyệt và truy cập: `http://localhost:8080`
+
+---
+
+## ☁️ Hướng dẫn triển khai lên Vercel (Deploy to Vercel)
+
+Bạn có thể đưa trang web này lên mạng internet miễn phí thông qua Vercel để gửi link cho thầy cô và bạn bè xem.
+
+1. Đăng nhập vào [Vercel](https://vercel.com/) bằng tài khoản GitHub của bạn.
+2. Bấm vào **Add New...** -> **Project**.
+3. Chọn Repository chứa mã nguồn này từ GitHub của bạn và bấm **Import**.
+4. Trong phần **Configure Project**:
+   - **Framework Preset:** Vercel sẽ tự động nhận diện là `Vite`.
+   - Mở rộng phần **Environment Variables**, thêm biến môi trường sau:
+     - Name: `VITE_GEMINI_API_KEY`
+     - Value: `[Dán API Key của bạn vào đây]`
+     - Bấm **Add**.
+5. Bấm **Deploy** và đợi khoảng 1-2 phút.
+6. 🎉 Hoàn tất! Vercel sẽ cấp cho bạn một đường link public để truy cập trang web từ bất kỳ đâu.
+
+---
+
+## 🤝 Đóng góp (Contributing)
+Nếu bạn thấy dự án này hữu ích, hãy cho mình xin 1 ⭐️ (Star) trên GitHub nhé! Mọi đóng góp (Pull Request) để cải thiện dự án đều được chào đón.
+
+## 📄 Giấy phép (License)
+Dự án này được phân phối dưới giấy phép MIT. Xem file `LICENSE` để biết thêm chi tiết.

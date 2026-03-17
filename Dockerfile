@@ -12,10 +12,12 @@ RUN npm install
 # Copy the rest of the application code
 COPY . .
 
+# Khai báo ARG để nhận API Key từ command line lúc build
+ARG GEMINI_API_KEY
+# Đưa ARG vào biến môi trường (ENV) để Vite có thể đọc được lúc chạy npm run build
+ENV GEMINI_API_KEY=$GEMINI_API_KEY
+
 # Build the application
-# Note: You should pass VITE_GEMINI_API_KEY as a build arg if needed, 
-# but for client-side apps, it's better to inject it at runtime or use a backend.
-# For this assignment, we assume it's built into the static files or handled by the host.
 RUN npm run build
 
 # Stage 2: Serve the application with Nginx
