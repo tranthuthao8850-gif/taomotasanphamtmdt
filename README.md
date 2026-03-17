@@ -35,13 +35,13 @@ Trước khi cài đặt, hãy đảm bảo máy tính của bạn đã có:
 3. **Gemini API Key:** Lấy miễn phí tại [Google AI Studio](https://aistudio.google.com/app/apikey).
 
 ---
-LINK VERCEL ỨNG DỤNG THAM KHẢO CỦA THÀNH VIÊN NHÓM:
-TRẦN THU THẢO: https://taomotasanphamtmdt.vercel.app/
-ĐOÀN THỊ NGỌC ANH: https://e-com-describer.vercel.app/
-TRẦN THANH HUYỀN: https://mo-ta-san-pham-ai.vercel.app/
-HOÀNG ĐỨC TUỆ: https://taomotasp.vercel.app/
-PHAN HỮU AN: https://ecommerce-description-an.vercel.app/
-NGUYỄN THANH HUYỀN: https://ai-product-description-generator-bb.vercel.app/
+- LINK VERCEL ỨNG DỤNG THAM KHẢO CỦA THÀNH VIÊN NHÓM:
+- TRẦN THU THẢO: https://taomotasanphamtmdt.vercel.app/
+- ĐOÀN THỊ NGỌC ANH: https://e-com-describer.vercel.app/
+- TRẦN THANH HUYỀN: https://mo-ta-san-pham-ai.vercel.app/
+- HOÀNG ĐỨC TUỆ: https://taomotasp.vercel.app/
+- PHAN HỮU AN: https://ecommerce-description-an.vercel.app/
+- NGUYỄN THANH HUYỀN: https://ai-product-description-generator-bb.vercel.app/
 ## 🚀 Hướng dẫn cài đặt và chạy trên máy cá nhân (Local Machine)
 
 Bất kỳ ai tải mã nguồn này về đều có thể chạy ứng dụng theo 1 trong 2 cách dưới đây:
