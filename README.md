@@ -9,8 +9,8 @@ NHÓM 5 CUTE NHẤT QUẢ ĐẤT
 Ứng dụng web thông minh giúp các nhà bán hàng tự động tạo bài viết mô tả sản phẩm thương mại điện tử chuẩn SEO, hấp dẫn và chuyên nghiệp chỉ trong vài giây nhờ sức mạnh của **Google Gemini AI**.
 
 > **Lưu ý dành cho Giảng viên / Người chấm điểm:** 
-> Đây là đồ án môn học [Điền tên môn học của bạn vào đây]. 
-> Sinh viên thực hiện: [Điền tên bạn] - MSSV: [Điền MSSV].
+> Đây là đồ án môn học [CÔNG NGHỆ WEB. 
+> Nhóm sinh viên thực hiện: [NHÓM 5] 
 
 ---
 
@@ -18,8 +18,6 @@ NHÓM 5 CUTE NHẤT QUẢ ĐẤT
 - 📝 **Tự động tạo nội dung:** Nhập tên sản phẩm, tính năng và từ khóa, AI sẽ tự động viết bài mô tả hoàn chỉnh.
 - 🔍 **Tối ưu SEO:** Nội dung được thiết kế thân thiện với công cụ tìm kiếm, giúp tăng tỷ lệ chuyển đổi.
 - 🎨 **Giao diện hiện đại:** Thiết kế tối giản, dễ sử dụng với Tailwind CSS.
-- 📋 **Sao chép & Xem trước HTML:** Hỗ trợ xem trước định dạng và sao chép mã HTML để dán trực tiếp lên Shopee, Lazada, Website...
-
 ---
 
 ## 🛠 Công nghệ sử dụng
